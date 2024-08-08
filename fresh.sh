@@ -19,8 +19,16 @@ fi
 rm -rf $HOME/.zshrc
 ln -sw $HOME/.dotfiles/.zshrc $HOME/.zshrc
 
-# Update Homebrew recipes
+# Install command-line tools using Homebrew.
+
+# Make sure we’re using the latest Homebrew.
 brew update
+
+# Upgrade any already-installed formulae.
+brew upgrade
+
+# Save Homebrew’s installed location.
+BREW_PREFIX=$(brew --prefix)
 
 # Install all our dependencies with bundle (See Brewfile)
 brew tap homebrew/bundle

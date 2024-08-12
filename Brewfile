@@ -3,6 +3,7 @@ tap 'homebrew/bundle'
 
 # Binaries
 brew 'bash' # Latest Bash version
+brew 'bash-completion2'
 brew 'bat' # Used for spatie/visit
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'ffmpeg'

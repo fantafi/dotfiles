@@ -17,6 +17,8 @@ brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'svn' # Needed to install fonts
+brew 'openssh'
+brew 'php'
 
 # Development
 brew 'imagemagick'
@@ -45,7 +47,7 @@ cask 'postman'
 cask 'httpie'
 # cask 'tableplus'
 cask 'dbeaver-community'
-# cask 'obsidian'
+cask 'obsidian'
 cask 'notion'
 cask 'visual-studio-code'
 cask 'sublime-text'

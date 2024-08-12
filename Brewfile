@@ -52,7 +52,7 @@ cask 'obsidian'
 cask 'notion'
 cask 'visual-studio-code'
 cask 'sublime-text'
-cask 'intellij-idea'
+cask 'intellij-idea-ce'
 cask 'warp'
 
 # Fonts

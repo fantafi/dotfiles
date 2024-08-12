@@ -1084,6 +1084,12 @@
         "options": {
           "full_name": "obsidian"
         }
+      },
+      "intellij-idea-ce": {
+        "version": "2024.2,242.20224.300",
+        "options": {
+          "full_name": "intellij-idea-ce"
+        }
       }
     }
   },

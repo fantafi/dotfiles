@@ -1090,6 +1090,12 @@
         "options": {
           "full_name": "intellij-idea-ce"
         }
+      },
+      "onedrive": {
+        "version": "24.141.0714.0002",
+        "options": {
+          "full_name": "onedrive"
+        }
       }
     }
   },

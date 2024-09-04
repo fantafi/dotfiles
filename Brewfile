@@ -55,6 +55,7 @@ cask 'visual-studio-code'
 cask 'sublime-text'
 cask 'intellij-idea-ce'
 cask 'warp'
+cask 'zed'
 
 # Fonts
 cask 'font-lato'

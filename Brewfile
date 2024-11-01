@@ -20,14 +20,17 @@ brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'svn' # Needed to install fonts
 brew 'openssh'
 brew 'php'
+brew 'htop'
 
 # Development
 brew 'imagemagick'
 brew 'yarn'
+brew 'maven'
 
 # Apps
 cask 'openkey'
 cask '1password'
+cask '1password-cli'
 #cask 'caffeine'
 cask 'figma'
 cask 'canva'
@@ -56,6 +59,7 @@ cask 'sublime-text'
 cask 'intellij-idea-ce'
 cask 'warp'
 cask 'zed'
+cask 'cursor'
 
 # Fonts
 cask 'font-lato'

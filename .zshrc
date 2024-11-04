@@ -117,3 +117,9 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 export JAVA_HOME=$(/usr/libexec/java_home --version 17)
 export MAVEN_HOME=/opt/homebrew/Cellar/maven/3.9.9/libexec
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/phantai/.cache/lm-studio/bin"
+
+# Rust
+. "$HOME/.cargo/env"

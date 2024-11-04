@@ -21,3 +21,8 @@ fi
 if test ! $(which nvm); then
   wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
 fi
+
+# Install Rust
+if test ! $(which rustup); then
+  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+fi

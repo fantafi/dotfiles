@@ -21,6 +21,7 @@ brew 'svn' # Needed to install fonts
 brew 'openssh'
 brew 'php'
 brew 'htop'
+brew 'uv'
 
 # Development
 brew 'imagemagick'

@@ -19,6 +19,7 @@ brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'svn' # Needed to install fonts
 brew 'openssh'
+brew 'gnupg'
 brew 'php'
 brew 'htop'
 brew 'uv'

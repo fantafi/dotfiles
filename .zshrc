@@ -78,7 +78,7 @@ ZSH_CUSTOM=$DOTFILES
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git 1password docker)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -112,7 +112,6 @@ export LANG=en_US.UTF-8
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 export JAVA_HOME=$(/usr/libexec/java_home --version 17)
@@ -123,3 +122,4 @@ export PATH="$PATH:/Users/phantai/.cache/lm-studio/bin"
 
 # Rust
 . "$HOME/.cargo/env"
+source /Users/fantafi/.daytona.completion_script.zsh

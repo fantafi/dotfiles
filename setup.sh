@@ -26,3 +26,8 @@ fi
 if test ! $(which rustup); then
   curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 fi
+
+# Install Daytona
+if test ! $(which daytona); then
+  curl -sf -L https://download.daytona.io/daytona/install.sh | sudo bash
+fi

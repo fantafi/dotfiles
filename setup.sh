@@ -31,3 +31,8 @@ fi
 if test ! $(which daytona); then
   curl -sf -L https://download.daytona.io/daytona/install.sh | sudo bash
 fi
+
+# Install Daytona
+if test ! $(which bun); then
+  curl -fsSL https://bun.sh/install | bash
+fi

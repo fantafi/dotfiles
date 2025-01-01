@@ -123,3 +123,10 @@ export PATH="$PATH:/Users/phantai/.cache/lm-studio/bin"
 # Rust
 . "$HOME/.cargo/env"
 source /Users/fantafi/.daytona.completion_script.zsh
+
+# bun completions
+[ -s "/Users/fantafi/.bun/_bun" ] && source "/Users/fantafi/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"

@@ -36,3 +36,9 @@ fi
 if test ! $(which bun); then
   curl -fsSL https://bun.sh/install | bash
 fi
+
+# Using fish shell
+if ! grep -q "fish" /etc/shells; then
+  echo $(which fish) | sudo tee -a /etc/shells
+fi
+chsh -s $(which fish)

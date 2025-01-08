@@ -4,6 +4,7 @@ tap 'homebrew/bundle'
 # Binaries
 brew 'bash' # Latest Bash version
 brew 'bash-completion2'
+brew 'fish'
 brew 'bat' # Used for spatie/visit
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'ffmpeg'
@@ -23,6 +24,8 @@ brew 'gnupg'
 brew 'php'
 brew 'htop'
 brew 'uv'
+brew 'eza'
+brew 'neovim'
 
 # Development
 brew 'imagemagick'

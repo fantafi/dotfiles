@@ -26,6 +26,7 @@ brew 'htop'
 brew 'uv'
 brew 'eza'
 brew 'neovim'
+brew 'tree'
 
 # Development
 brew 'imagemagick'
@@ -70,6 +71,7 @@ cask 'intellij-idea-ce'
 cask 'warp'
 cask 'zed'
 cask 'cursor'
+cask 'orbstack'
 
 # Fonts
 cask 'font-lato'

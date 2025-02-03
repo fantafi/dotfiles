@@ -37,6 +37,13 @@ if test ! $(which bun); then
   curl -fsSL https://bun.sh/install | bash
 fi
 
+# Install fisher
+if test ! $(which fisher); then
+  curl -fsSL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source
+  fisher install jorgebucaran/fisher
+  fisher install jorgebucaran/nvm.fish
+fi
+
 # Using fish shell
 if ! grep -q "fish" /etc/shells; then
   echo $(which fish) | sudo tee -a /etc/shells
